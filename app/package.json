@@ -1,0 +1,17 @@
+{
+	"main": "main.js",
+	"dependencies": {
+		"lit-html": "^1.0.0",
+		"postcss-nested": "^4.1.2"
+	},
+	"browserslist": [
+		"last 1 Electron version"
+	],
+	"scripts": {
+		"development": "parcel index.js --no-hmr",
+		"build": "parcel build index.js --no-source-maps"
+	},
+	"devDependencies": {
+		"cssnano": "^4.1.10"
+	}
+}
